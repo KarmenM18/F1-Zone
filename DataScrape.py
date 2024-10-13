@@ -41,4 +41,4 @@ for class_name in other_classes:
 
 # Step 5: Convert data to a DataFrame and save as CSV
 df = pd.DataFrame(data, columns=headers)
-df.to_csv('formula1_drivers_all_time.csv', index=False)
+df.to_csv('f1_drivers_all_time.csv', index=False)
